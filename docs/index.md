@@ -1,81 +1,93 @@
 # <span class="typewriter">Sofía Schenone</span>
 
-## Desarrollo backend y automatización e integración de sistemas para resolver problemas reales
+## Backend Development · Automatización de Sistemas · Arquitectura & Seguridad
 
-Soy desarrolladora de software con formación técnica universitaria, enfocada en backend, automatización de procesos e integración entre sistemas.
+Soy desarrolladora de software con formación técnica universitaria, especializada en **backend**, **automatización de procesos con n8n** e **integración de sistemas**. 
 
-Me interesa entender los problemas antes de escribir código, y construir
-soluciones simples, mantenibles y bien pensadas.  
-Este sitio no es un catálogo de tecnologías: es una forma de mostrar
-**cómo razono y cómo aprendo**.
+Construyo soluciones basadas en principios de **seguridad desde el diseño**, **escalabilidad modular** y **código predecible y mantenible**. Mi objetivo es entender las necesidades del negocio antes de escribir código, evitando complejidad accidental y garantizando alta disponibilidad.
 
 ---
-## Qué hago en la práctica
 
-- Desarrollo de APIs y lógica backend
+<ClientOnly>
+  <RecruiterGame />
+</ClientOnly>
 
-- Automatización de procesos con n8n
+---
 
-- Integración entre sistemas y servicios
+## 🎯 Pilares Técnicos: Seguridad & Escalabilidad
 
-- Implementación de flujos que combinan IA y lógica de negocio
+<ClientOnly>
+  <TechPillars />
+</ClientOnly>
 
-- Mantenimiento y mejora continua de sitios web para empresas reales
+---
 
-## 🧠 Cómo pienso cuando programo
+## 💻 Repositorios y Proyectos en Vivo (GitHub)
 
-Gran parte de mi formación está enfocada en **lógica y algoritmos**.
-Antes de preocuparme por la interfaz, busco que el flujo sea claro
-y que el código tenga sentido por sí mismo.
+Explorá mis repositorios públicos sincronizados directamente con GitHub. Podés filtrar por stack tecnológico, revisar el código fuente o acceder a las demos desplegadas:
 
-Antes de mostrar tecnologías, me gusta mostrar cómo pienso los problemas.
+<ClientOnly>
+  <GitHubProjects />
+</ClientOnly>
+
+---
+
+## 🧠 Cómo razono los problemas de ingeniería
+
+Gran parte de mi formación universitaria se basa en **lógica, algoritmos y gestión de memoria** (C y estructuras de datos). Antes de apresurarme con un framework o interfaz, diseño el modelo de datos, la máquina de estados y las transacciones críticas:
+
 ```c
+/* Control de flujo, manejo de estado y prevención de desbordamientos */
 int score = 0;
 
 for (int i = 0; i < total_questions; i++) {
-    printf("%s\n", questions[i].question);
-    scanf("%d", &answer);
+    printf("[Security Check %d]: %s\n", i + 1, questions[i].question);
+    if (scanf("%d", &answer) != 1) {
+        printf("Error: Entrada no válida. Sanitizando buffer.\n");
+        break;
+    }
 
     if (answer == questions[i].correct) {
         score++;
     }
 }
 
-printf("Puntaje final: %d\n", score);
+printf("Auditoría completada. Puntuación de integridad: %d/%d\n", score, total_questions);
 ```
-Este ejemplo no busca mostrar una solución compleja,
-sino la forma en que encaro los problemas:
-pensar el flujo, controlar el estado y avanzar paso a paso.
 
-Es la misma lógica que aplico cuando trabajo con APIs,
-automatizaciones o sistemas más grandes.
-Lo que cambia es la herramienta, no la forma de pensar.
+> Lo que cambia con el tiempo es la herramienta o el lenguaje; **el criterio de arquitectura, control de errores y seguridad permanece**.
 
----
-
-## 🚀 Para seguir desde acá
-
-Si querés ver cómo aplico esta forma de pensar en proyectos reales:
-
-- 📁 [Proyectos](/projects/) donde explico soluciones reales
-- 🧠 Decisiones técnicas y trade-offs
-- 📚 Lo que voy aprendiendo mientras estudio y trabajo
 ---
 
 ## 🌐 Proyectos implementados en empresas reales
-#### Además de proyectos personales y académicos, también participo en el mantenimiento y mejora de sitios utilizados por empresas reales:
 
-### 🧑‍⚖️ Juridico Gonzalez
-- Sitio institucional para estudio jurídico con presentación de servicios
-👉 [Ver proyecto](/projects/juridico-gonzalez)
+Además de proyectos personales y de código abierto, desarrollo y participo en el mantenimiento de soluciones utilizadas en entornos productivos por empresas reales:
 
-### 🛡️ GRM Seguridad
-- Web corporativa para empresa de seguridad
-👉 [Ver proyecto](/projects/grm-seguridad)
+### 🧑‍⚖️ Jurídico González
+- Sitio institucional y canal digital para estudio jurídico integral con presentación de servicios y captación de clientes.
+- 👉 [Ver documentación y detalles del proyecto](/projects/juridico-gonzalez)
+
+### 🛡️ Grupo MG S.R.L. (Ex GRM Seguridad)
+- Plataforma web corporativa y marketplace para empresa de seguridad integral y custodia patrimonial.
+- 🌐 Sitio en producción activo: [mggrupo.com.ar](https://mggrupo.com.ar/)
+- 👉 [Ver documentación y video demo interactivo](/projects/grm-seguridad)
 
 ### 🏗️ DYS Constructora
-- Sitio institucional para constructora
-👉 [Ver proyecto](/projects/dys-constructora)
+- Plataforma institucional y catálogo de obras para empresa constructora, con backend en Node.js y front modular.
+- 👉 [Ver documentación y detalles del proyecto](/projects/dys-constructora)
 
+---
 
-Gracias por tomarte el tiempo de leer.
+## 🤖 Soluciones de Automatización con IA
+
+### 💬 Bot de WhatsApp con n8n & OpenAI
+- Flujo automatizado de atención al cliente utilizando WhatsApp Cloud API, webhooks resilientes y orquestación con IA para responder consultas de negocio.
+- 👉 [Explorar flujo de n8n y arquitectura](/projects/whatsapp-bot-n8n)
+
+---
+
+<div class="stats-container">
+  <ClientOnly>
+    <LiveStats />
+  </ClientOnly>
+</div>
